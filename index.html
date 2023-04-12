@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bodily - BMI Calculator</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="Bodily logo" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#calculator">BMI Calculator</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <main class="hero">
+        <div class="intro">
+          <h1 class="welcome">Welcome to</h1>
+          <h1 class="info">Bodily</h1>
+        </div>
+        <div class="subHero">
+          <p>Cara mudah memantau indeks massa tubuh</p>
+        </div>
+      </main>
+    </section>
+
+    <section id="calculator">
+      <main class="container">
+        <img src="assets/img/bg.png" alt="bg-bodily" />
+        <div class="form-wrapper">
+          <h2>Hitung Indeks Kesehatan Tubuh</h2>
+          <input
+            id="berat"
+            type="number"
+            placeholder="Berat Badan (kg)"
+          /><br />
+          <input
+            id="tinggi"
+            type="number"
+            placeholder="Tinggi Badan (cm)"
+          /><br />
+          <button onclick="hitungBMI()">Hitung</button>
+          <div id="result">
+            <p id="hasil"></p>
+          </div>
+        </div>
+      </main>
+    </section>
+    <footer>
+      <div class="footer-info">
+        <p>Powered by : Fitroh Izatul Malkiyah</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: #7028ba;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar img {
+  width: 60px;
+  padding-right: auto;
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+.menu {
+  margin-right: 5%;
+}
+
+.menu ul {
+  color: #7028ba;
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.menu ul li a:hover {
+    color: #333;
+  }
+
+.hero {
+  margin-left: 7%;
+  padding-top: 20%;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.info {
+  color: #7028ba;
+  padding-left: 1%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  padding-bottom: 2%;
+}
+
+.container img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.form-wrapper {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: end;
+}
+
+input {
+  padding: 10px;
+  padding-left: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+  width: 350px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #333;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #7028ba;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  width: 100px;
+  margin-right: 3%;
+}
+
+button:hover {
+  background-color: black;
+  border: none;
+}
+
+h2{
+    text-align: center;
+    color: #8437d1;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+#result{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+footer {
+    margin-top: auto;
+    height: 30px;
+    background-color: #7028ba;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .footer-info {
+    font-size: 14px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
