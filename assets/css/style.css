@@ -11,19 +11,40 @@ html {
   scroll-behavior: smooth;
 }
 
+li{
+  list-style:none;
+}
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+a{
+  text-decoration:none;
+  color:#7028ba;
+}
+
+a:hover{
+  color:#333;
+}
+
+header{
+  position:relative;
+}
+
+.navbar{
+  display:flex;
+  height:70px;
+  align-items:center;
+  justify-content:space-between;
   background-color: white;
   color: #7028ba;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  position: fixed;
   top: 0;
   width: 100%;
+  position: fixed;
   z-index: 1;
+}
+
+.navbar .links{
+  display:flex;
+  gap:2rem;
 }
 
 .navbar img {
@@ -38,21 +59,6 @@ html {
 .menu {
   margin-right: 5%;
 }
-
-.menu ul {
-  color: #7028ba;
-  display: flex;
-  list-style: none;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  margin: 20px;
-}
-
-.menu ul li a:hover {
-    color: #333;
-  }
 
 .hero {
   margin-left: 7%;

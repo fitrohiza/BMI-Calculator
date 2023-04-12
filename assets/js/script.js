@@ -11,7 +11,7 @@ function hitungBMI() {
     hasil.textContent = "Input tidak boleh negatif atau nol";
   }else {
     const bmi = berat / (tinggi * tinggi);
-    hasil.textContent = `BMI Anda adalah ${bmi.toFixed(2)}.`;
+    hasil.textContent = `BMI Anda adalah ${bmi.toFixed(2)}`;
 
     if (bmi < 18.5) {
       hasil.textContent += " Berat badan anda kurang";
@@ -28,3 +28,4 @@ function hitungBMI() {
     }
   }
 }
+
